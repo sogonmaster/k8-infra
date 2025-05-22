@@ -6,6 +6,6 @@ metadata:
   namespace: flux-system
 spec:
   image: sogonmaster/nodeapp-git
-  interval: 20s
+  interval: 10s
   secretRef:
     name: dockerhub-cred
